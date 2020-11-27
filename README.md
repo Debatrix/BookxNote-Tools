@@ -10,6 +10,7 @@ BookxNote的同步也是个问题，对于不在收集篮里的文件都是使�
 好在作者是用json保存的标注，我能写个外置的脚本满足这些需求。
 
 我目前的使用方式：
+
     1. 在zotero里直接用bookxnote打开pdf
     2. 如果需要精读就将pdf保存至笔记文件夹
     3. 阅读完运行写入pdf的脚本
@@ -17,7 +18,7 @@ BookxNote的同步也是个问题，对于不在收集篮里的文件都是使�
     5. 使用zotfile的源文件夹功能重新获取到标注过的pdf 再利用重复项合并之类的方式合在一起
     6. 标注导出成html后用pandoc之类的东西再转成markdown 然后丢进joplin或者obsidian
 
-目前完成了写入pdf的脚本 这样来看还少个转markdown以及自动删除output文件夹里pdf的脚本 不过不太着急就看我心情了【手动狗头】
+目前完成了写入pdf的脚本 还少个转markdown以及自动删除output文件夹里已有的pdf的脚本
 
 ---
 
